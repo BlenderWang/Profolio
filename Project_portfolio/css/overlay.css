@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.simple-overlay{
+    display: none;
+    z-index: 10000;
+    background-color:  #bfa89b;
+    width: 400px;
+    min-height: 351px;
+    -moz-box-shadow: 0 0 20px #010d2a;
+    -webkit-box-shadow: 0 0 20px #010d2a;   
+}
+
+.simple-overlay .close{
+    background-image: url(../img/overlay/close.png);
+    position: absolute;
+    right: 0;
+    top: -15px;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+}
+
+/*
+.glyphicon-remove-circle{
+    position: absolute;
+    right: 5;
+    top: 5px;
+    cursor: pointer;
+}
+*/
+.simple-overlay p{
+    font-family: Times, serif;
+    font-size: 16px;
+}
+
+.details{
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 18px;
+    color: #212b42;
+    width: 80px;
+}
+
+.details h4{
+    color: #010d2a;
+    font-size: 22px;
+}
+
+#img7 img{
+    margin-top: 80px;
+}
+
+#img8 img{
+    width: 240px;
+    height: 240px;
+    margin-top: 45px;
+}
