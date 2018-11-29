@@ -1,2 +1,2 @@
 # Profolio
-My portfolio with Bootstrap
+My portfolio 
